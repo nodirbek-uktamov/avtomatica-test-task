@@ -21,6 +21,7 @@ or in windows open pgAdmin and create db with name `nodirbek_task_django`
 
 ##running project:
 ```commandline
+python manage.py collectstatic
 mkvirtualenv some_unique_name_for_virtual_env  
 pip install -r requirements.txt
 python manage.py migrate
